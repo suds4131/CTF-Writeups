@@ -41,7 +41,7 @@ Description: Simon is maintaining a personal portfolio website, along with a sec
 Solution: -
 The website had its `.git` exposed. I used `git-dumper` to dump it.
 Checking up `robots.txt` reveals to us a `/supersecret/` which can be accessed only if a specific cookie is set. We can learn about this by reviewing the .git dump.
-```
+```node
 const express = require("express");
 const fs = require("fs");
 const serveIndex = require("serve-index");
