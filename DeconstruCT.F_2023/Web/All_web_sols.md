@@ -16,6 +16,7 @@ https://chall.web/?secret=spaghetti
 
 ### why-are-types-weird
 Description: Jacob is making a simple website to test out his PHP skills. He is certain that his website has absolutely zero security issues.
+
 Solution: - 
 
 This was a PHP type juggling chall.
