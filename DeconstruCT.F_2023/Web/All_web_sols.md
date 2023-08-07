@@ -5,7 +5,7 @@ Description: What can be sweeter than doing nothing? The flag is right in front 
 
 Solution: -
 
-There were an Italian flag and things related to Italy in the index of the website.
+There was an Italian flag and things related to Italy in the index of the website.
 So we change the `Accept-Language` Header to include `it-IT`.
 ```
 Accept-Language: it-IT
