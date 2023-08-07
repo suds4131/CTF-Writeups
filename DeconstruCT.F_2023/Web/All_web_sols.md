@@ -28,7 +28,7 @@ if (password_hash($_GET['password'],'sha1') == "0") {
 ?>
 ```
 So I went down to John Hammond's [ctf-katana](https://github.com/JohnHammond/ctf-katana#php) and pulled out some SHA1 magic hashes and their plaintext and used them as password along with "admin" as username.
-In admin.php you can search for user based on ID, its based SQLi.
+In admin.php you can search for user based on ID, its basic Union Based SQLi to extract info from another table.
 
 ### debugzero
 Description: Someone on the dev team fat fingered their keyboard, and deployed the wrong app to production. Try and find what went wrong. The flag is in a file called "flag.txt"
