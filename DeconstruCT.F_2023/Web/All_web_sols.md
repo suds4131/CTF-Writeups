@@ -3,6 +3,7 @@ Since the CTF isn't live now I can't deploy machines so I will share what I reme
 ### Sweet-Nothing
 Description: What can be sweeter than doing nothing? The flag is right in front of you.
 Solution: -
+
 There were an Italian flag and things related to Italy in the index of the website.
 So we change the `Accept-Language` Header to include `it-IT`.
 ```
@@ -16,6 +17,7 @@ https://chall.web/?secret=spaghetti
 ### why-are-types-weird
 Description: Jacob is making a simple website to test out his PHP skills. He is certain that his website has absolutely zero security issues.
 Solution: - 
+
 This was a PHP type juggling chall.
 Upon viewing the html source of the index, we see that `source.php` is commented and upon visiting source.php we get the login.php source code.
 It had a weak comparision in place.
@@ -31,14 +33,17 @@ So I went down to John Hammond's [ctf-katana](https://github.com/JohnHammond/ctf
 In admin.php you can search for user based on ID, its basic Union Based SQLi to extract info from another table.
 
 ### debugzero
-Description: Someone on the dev team fat fingered their keyboard, and deployed the wrong app to production. Try and find what went wrong. The flag is in a file called "flag.txt"
+Description: Someone on the dev team fat fingered their keyboard, and deployed the wrong app to production. Try and find what went wrong. The flag is in a file called "flag.txt".
+
 Solution: -
+
 A html comment in the index read something like `John, how many times do I tell you to turn off debug mode in production.` So I immediately tried the most possible thing and that is `/console`. We could also fuzz directories using big.txt from dirb, we would have gotten it.
 And the PIN to the locked console was present in `styles/style.css` which could be seen in HTML source.
 
 ### gitcha
 Description: Simon is maintaining a personal portfolio website, along with a secret which no one else knows. Can you discover his secret?
 Solution: -
+
 The website had its `.git` exposed. I used `git-dumper` to dump it.
 Checking up `robots.txt` reveals to us a `/supersecret/` which can be accessed only if a specific cookie is set. We can learn about this by reviewing the .git dump.
 ```node
