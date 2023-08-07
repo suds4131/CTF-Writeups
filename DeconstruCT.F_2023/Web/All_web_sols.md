@@ -1,7 +1,8 @@
-Since the CTF isn't live now I can't deploy machines so I will share what I remember I used to solve the web challs.
+Since the CTF isn't live now I can't deploy machines, so I will share what I remember I used to solve the web challs.
 
 ### Sweet-Nothing
 Description: What can be sweeter than doing nothing? The flag is right in front of you.
+
 Solution: -
 
 There were an Italian flag and things related to Italy in the index of the website.
@@ -36,13 +37,16 @@ In admin.php you can search for user based on ID, its basic Union Based SQLi to 
 ### debugzero
 Description: Someone on the dev team fat fingered their keyboard, and deployed the wrong app to production. Try and find what went wrong. The flag is in a file called "flag.txt".
 
+
 Solution: -
+
 
 A html comment in the index read something like `John, how many times do I tell you to turn off debug mode in production.` So I immediately tried the most possible thing and that is `/console`. We could also fuzz directories using big.txt from dirb, we would have gotten it.
 And the PIN to the locked console was present in `styles/style.css` which could be seen in HTML source.
 
 ### gitcha
 Description: Simon is maintaining a personal portfolio website, along with a secret which no one else knows. Can you discover his secret?
+
 Solution: -
 
 The website had its `.git` exposed. I used `git-dumper` to dump it.
