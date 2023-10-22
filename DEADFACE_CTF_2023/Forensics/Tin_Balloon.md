@@ -23,7 +23,7 @@ Upon listening to the mp3 file, we hear some noise in between, thus checking out
 It is the password for the encrypted docx, thus we decrypt it by the following.
 
 ```
-$ msoffcrypto-tool ctf/deadface_ctf_23/tin_baloon/Untitlednosubject.docx ctf/deadface_ctf_23/tin_baloon/decrypted.docx -p Gr33dK1Lzz@11Wh0Per5u3
+$ msoffcrypto-tool Untitlednosubject.docx decrypted.docx -p Gr33dK1Lzz@11Wh0Per5u3
 $ unzip -l decrypted.docx 
 Archive:  decrypted.docx
   Length      Date    Time    Name
