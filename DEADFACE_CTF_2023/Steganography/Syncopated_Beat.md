@@ -11,7 +11,7 @@ I have uploaded the reversed version here, so you can listen to it if you want t
 
 <details>
   <summary>Password is a series spoiler. Warning.</summary>
-  `TYRELLWELLICK`
+  TYRELLWELLICK
 </details>
 
 Opening `mysterious_music.wav` in Deep Sound and using the password, we can extract a hidden file named `ozzy-mandias.jpeg` which has the final flag.
