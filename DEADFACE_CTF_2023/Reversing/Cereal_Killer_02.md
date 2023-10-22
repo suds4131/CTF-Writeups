@@ -1,4 +1,4 @@
-### Cereal Killer 2
+### Cereal Killer 02
 
 Disassembly in ghidra.
 
