@@ -16,6 +16,8 @@ I have uploaded the reversed version here, so you can listen to it if you want t
 
 Opening `mysterious_music.wav` in Deep Sound and using the password, we can extract a hidden file named `ozzy-mandias.jpeg` which has the final flag.
 
+![Opening the file in Deep Sound.](https://raw.githubusercontent.com/suds4131/CTF-Writeups/main/DEADFACE_CTF_2023/Steganography/deep_sound_mysterious_music.png)
+
 ### Flag
 
 `flag{Lookout_COVID_BATZ!!!}`
