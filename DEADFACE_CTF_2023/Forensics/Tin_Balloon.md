@@ -18,6 +18,8 @@ Untitlednosubject.docx: CDFV2 Encrypted
 
 Upon listening to the mp3 file, we hear some noise in between, thus checking out the spectrogram gives us the following.
 
+![Spectrogram](https://github.com/suds4131/CTF-Writeups/blob/main/DEADFACE_CTF_2023/Forensics/sequence_01_spectrogram.png?raw=true)
+
 It is the password for the encrypted docx, thus we decrypt it by the following.
 
 ```
