@@ -1,6 +1,6 @@
 ### Details
 
-Event: Deadface CTF 2023
+Event: [DEADFACE CTF 2023](https://ctftime.org/event/2031)
 
 Team: suds4131
 
