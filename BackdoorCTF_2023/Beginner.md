@@ -1,5 +1,3 @@
-I just noted my solves during the CTF
-
 ### Beginner-menace
 exiftool
 
