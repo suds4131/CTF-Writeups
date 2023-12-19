@@ -2,19 +2,24 @@ I just noted my solves during the CTF
 
 ### Beginner-menace
 exiftool
+
 flag{7h3_r34l_ctf_15_7h3_fr13nd5_w3_m4k3_al0ng}
 
 ### secret_of_j4ck4l
 %2525252E%2525252E%2525252Fflag%2525252Etxt
+
 Simple LFI
+
 flag{s1mp13_l0c4l_f1l3_1nclus10n_0dg4af52gav}
 
 ### Headache
 Correcting magic bytes
+
 flag{sp3ll_15_89_50_4E_47}
 
 ### Secret-of-Kurama
 JWT secret = "minato" cracked using hashcat
+
 flag{y0u_ar3_tru3_L34F_sh1n0b1_bf56gtr59894}
 
 ### Cheat code
@@ -50,7 +55,9 @@ flag{c4n't_HESOYAM_7h15_c4n_y0u}
 
 ### Not So Guessy
 111010101111011010101110100101
+
 Heads and Tails of 1970 = reverse binary = 985508773 -> Never changed secret
+
 ```
 Scissors\nRock\nRock\nRock\nScissors\nRock\nPaper\nPaper\nPaper\nRock\nPaper\nScissors\nPaper\nPaper\nRock\nRock\nScissors\nScissors\nRock
 ```
